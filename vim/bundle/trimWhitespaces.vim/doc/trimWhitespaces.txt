@@ -1,0 +1,31 @@
+                                                              *trimWhitespaces*
+*trimWhitespaces.txt* Trim trailing whitespaces on save.
+
+===============================================================================
+1. Options                                            *trimWhitespaces_options*
+
+-------------------------------------------------------------------------------
+'g:trimWhitespaces'                                         *g:trimWhitespaces*
+
+Enable triming on save.
+
+Values: integer
+  0 - disable
+  1 - enable
+Default: >
+  let g:trimWhitespaces = 1
+<
+-------------------------------------------------------------------------------
+'g:trimWhitespaces_ignore_filetypes        *g:trimWhitespaces_ignore_filetypes*
+
+List of filetypes to ignore.
+
+Values: string
+Default: >
+  let g:trimWhitespaces_ignore_filetypes = [
+    \ 'diff',
+    \ 'gitcommit',
+    \ 'mail',
+    \]
+<
+-------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+g:trimWhitespaces	trimWhitespaces.txt	/*g:trimWhitespaces*
+g:trimWhitespaces_ignore_filetypes	trimWhitespaces.txt	/*g:trimWhitespaces_ignore_filetypes*
+trimWhitespaces	trimWhitespaces.txt	/*trimWhitespaces*
+trimWhitespaces.txt	trimWhitespaces.txt	/*trimWhitespaces.txt*
+trimWhitespaces_options	trimWhitespaces.txt	/*trimWhitespaces_options*
